@@ -50,7 +50,7 @@ function billing() {
     const options={
       "key":process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
       "subscription_id":subId,
-      "name":'Tubeguruji AI Apps',
+      "name":'KASHISH AI PLAN',
       description:'Monthly Subscription',
       handler:async(resp:any)=>{
         console.log(resp);
@@ -192,7 +192,7 @@ function billing() {
         </h2>
 
         <p className="mt-2 sm:mt-4">
-          <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 9.99$ </strong>
+          <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 0.9$ </strong>
 
           <span className="text-sm font-medium text-gray-700">/month</span>
         </p>
